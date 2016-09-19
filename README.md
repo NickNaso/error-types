@@ -39,7 +39,7 @@ as reported below:
 'use strict';
 var errorTypes = require('error-types');
 // I want Internal Server Error
-console.log(errorType.INTERNAL_SERVER_ERROR); 
+console.log(errorTypes.INTERNAL_SERVER_ERROR); 
 ```
 
 #### Below is reported the list of errors and their descriptions that are currently maneged by the error-types
