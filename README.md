@@ -40,6 +40,15 @@ as reported below:
 var errorTypes = require('error-types');
 // I want Internal Server Error
 console.log(errorTypes.INTERNAL_SERVER_ERROR); 
+/**
+ * Output:
+ *  { 
+ *    code: 'INTERNAL_SERVER_ERROR',
+ *    statusText: 'Internal Server Error',
+ *    HTTPStatusCode: 500,
+ *    description: 'The server encountered an unexpected condition which prevented it from fulfilling the request.' 
+ *  }
+ */
 ```
 
 #### Below is reported the list of errors and their descriptions that are currently maneged by the error-types

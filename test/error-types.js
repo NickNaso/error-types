@@ -27,5 +27,6 @@ var errorTypes = require('../');
 describe("Test error-types", function () {
 
   // Here the test suite
+  console.log(errorTypes.INTERNAL_SERVER_ERROR);
 
 });
