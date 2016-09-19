@@ -1,0 +1,45 @@
+{
+  "name": "error-types",
+  "description": "List of common errors for RESTful API",
+  "version": "1.0.0",
+  "contributors": [
+    {
+      "name": "Mauro Doganieri",
+      "email": "mauro.doganieri@gmail.com"
+    },
+    {
+      "name": "Nicola Del Gobbo",
+      "email": "nicoladelgobbo@gmail.com"
+    }
+  ],
+  "keywords": [
+    "rest",
+    "error",
+    "api",
+    "restful"
+  ],
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "node node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=test/jasmine.json"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickNaso/error-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NickNaso/error-types/issues"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.2"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "index.js",
+    "lib/"
+  ]
+}
